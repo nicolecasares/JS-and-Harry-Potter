@@ -23,12 +23,12 @@
 //   i++;
 // }
 
-// DO WHILE
+// DO WHILE - will always run at leat once 
 
-// let i = 100;
+// let i = 1;
 
 // do {
-//   console.log('Number ' + i);
+//   console.log(i + " points for Gryffindor");
 //   i++;
 // }
 
@@ -40,6 +40,12 @@
 // for(let i = 0; i < cars.length; i++){
 //   console.log(cars[i]);
 // }
+
+const houses = [ 'Gryffindor', 'Hufflepuff', 'Ravenclaw', 'Slytherin'];
+
+for(let i = 0; i < houses.length; i++){
+	console.log("Ten points for " + houses[i]);
+}
 
 // FOREACH
 // cars.forEach(function(car, index, array){
